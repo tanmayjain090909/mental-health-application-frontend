@@ -1,0 +1,91 @@
+[00:00:01.139] Server  LOG      ✓ Ready in 733ms
+[00:00:03.496] Server  ERROR   [next-auth][error][JWT_SESSION_ERROR] "\nhttps://next-auth.js.org/errors#jwt_session_error" "decryption operation failed" {}
+[00:00:04.173] Server  LOG      ○ Compiling /dashboard ...
+[00:00:05.813] Server  LOG     [dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[00:00:06.213] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.806] Server  WARN     ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+[00:00:06.967] Browser WARN    Image with src "/images/wellMind_Logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:06.967] Browser WARN    Image with src "/images/wellMind_Logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:44.508] Browser ERROR   unhandledRejection: Error: API Error
+[00:01:06.850] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:07.570] Browser WARN    Image with src "/images/wellMind_Logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:07.570] Browser WARN    Image with src "/images/wellMind_Logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:01:15.142] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:15.961] Browser WARN    Image with src "/images/wellMind_Logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:15.962] Browser WARN    Image with src "/images/wellMind_Logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:01:37.370] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:38.125] Browser WARN    Image with src "/images/wellMind_Logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:38.125] Browser WARN    Image with src "/images/wellMind_Logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:01:56.149] Browser ERROR   unhandledRejection: Error: API Error
+[00:02:35.406] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:36.098] Browser WARN    Image with src "/images/wellMind_Logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:36.098] Browser WARN    Image with src "/images/wellMind_Logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:49.642] Browser ERROR   unhandledRejection: ReferenceError: api is not defined
+[00:03:15.552] Server  LOG      ✓ Compiled in 55ms
+[00:03:19.822] Browser ERROR   unhandledRejection: Error: API Error
+[00:03:51.962] Server  LOG     [dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[00:04:31.294] Browser ERROR   unhandledRejection: Error: API Error
+[00:08:27.802] Browser ERROR   unhandledRejection: Error: API Error
+[00:10:48.993] Server  LOG      ✓ Compiled in 30ms
+[00:11:04.703] Server  LOG     [dotenv@17.2.3] injecting env (0) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[00:11:05.160] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:05.943] Browser WARN    Image with src "/images/wellMind_Logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:09.290] Browser ERROR   unhandledRejection: Error: API Error
+[00:12:18.949] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:05.573] Server  LOG      ✓ Compiled in 27ms
+[00:13:05.729] Browser ERROR   ./app/signup/page.js:57:23
+Parsing ecmascript source code failed
+  55 |         const data = await api("/auth/register", {
+  56 |             method: "POST",
+> 57 |             body: form),
+     |                       ^
+  58 |         });
+  59 |
+  60 |         if (data.error) {
+
+Expected ',', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.js [Client Component Browser]
+    ./app/signup/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.js [Client Component SSR]
+    ./app/signup/page.js [Server Component]
+[00:13:07.021] Server  LOG     [dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[00:13:32.562] Browser WARN    Image with src "/images/wellMind_Logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:56.168] Server  LOG      ✓ Compiled in 27ms
+[00:13:56.724] Browser ERROR   ./app/mood-checkin/page.js:26:23
+Parsing ecmascript source code failed
+  24 |         const data = await api("/mood-checkin", {
+  25 |             method: "POST",
+> 26 |             body: form),
+     |                       ^
+  27 |         });
+  28 |
+  29 |         if (data.error) {
+
+Expected ',', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/mood-checkin/page.js [Client Component Browser]
+    ./app/mood-checkin/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/mood-checkin/page.js [Client Component SSR]
+    ./app/mood-checkin/page.js [Server Component]
+[00:13:57.586] Server  LOG     [dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[00:14:28.006] Browser ERROR   unhandledRejection: Error: API Error
+[00:15:14.934] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:15.608] Browser WARN    Image with src "/images/wellMind_Logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:04.276] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:04.977] Browser WARN    Image with src "/images/wellMind_Logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:04.977] Browser WARN    Image with src "/images/wellMind_Logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.nav-btn {
+  @apply text-sm px-4 py-2 rounded-lg text-gray-700 hover:bg-[#F99262] hover:text-white transition;
+}
+
+.mobile-btn {
+  @apply w-full text-sm px-5 py-2.5 rounded-lg bg-[#F99262] text-white;
+}
